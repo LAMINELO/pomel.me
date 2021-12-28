@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="./style2.css">
+    <head>
+
+        
+        <div class="menu-container" id="myDIV">
+        <h3>Settings</h3>ـــــــــــــــــــــــــــــــــــــــــــــــــ
+        <br>
+        <h4>Language</h4><a class="op-lang" href="pomel-ar-dark-mode.html">Arabic</a>
+        <br>
+        <h4>Dark mode</h4><a href="pomel.html"><label id="theme-change"></label></a>
+        <br>
+        <br>
+        <h3>Music</h3>ـــــــــــــــــــــــــــــــــــــــــــــــــ
+        <br>
+        <h4>Turn ON & OFF</h4><label id="turn-music"></label>
+                <div class="h6">Music is necessary ! 
+            <br>
+        So the button won't work (:
+        <br>
+        sorry UwU
+    </div>
+        </div>
+        <marquee direction="right" behavior="alternate" scrollamount="8">Click the triangle to open the App (:</marquee>
+<script>
+        var content = document.getElementsByTagName('div')[0];
+        var darkMode = document.getElementById('theme-change');
+        darkMode.addEventListener('click', function(){
+            darkMode.classList.toggle('active');
+            content.classList.toggle('night');
+        })
+    </script>
+
+
+        <img src="./Pictures./dark-mode-bg.png" class="bg">
+        <a href="./pomodoro-starter-files-master./index.html">
+            <div class="pomel-btn">
+            
+            
+        </div>
+    </a>
+        <div class="wrapper">
+
+            <div class="icon youtube">
+                <div class="tooltip">Youtube</div>
+                <a class="social-media" href="https://www.youtube.com/channel/UCdpDEJeMUqzwnFdLbdixwdw/videos?view_as=subscriber" target="._blank"><img src="youtube-icon.png"></a>
+            </div>
+
+
+        
+            <div class="icon instagram">
+                <div class="tooltip">Instagram</div>
+                <a class="social-media" href="https://www.instagram.com/lam._.ine._/" target="._blank"><img src="ig-icon.png"></a>
+            </div>
+
+
+            
+        </div>
+
+        <div class="side-nav">
+            <a href="#">Home</a>
+            <a href="#part-1">What is it ?</a>
+            <a href="#part-2">How it works</a>
+            <a href="#part-3">Advices</a>
+            <input type="image" src="./Pictures./settings-icon.png" onclick="myFunction()">
+        </div>
+        <script type="text/javascript">
+            function myFunction() {
+                var x = document.getElementById("myDIV");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none"
+                }
+            }
+        </script>
+
+     </head>
+
+    <body>
+        <div id="part-1">
+        <h1 id="WhatIsIt">What is it ?</h1>
+        <br>
+        <h2>-Pomel is an app made to help people use and organize their time correctly.<br>
+            <br>
+            
+        -Pomel Can be used for homeworks ,studies and any type of tasks.<br>
+         <br>
+          -We all hate doing work but with Pomel it will be more easier and actually it will be fun. </h2>
+    </div>
+    <div id="part-2">
+        <br>
+        <h1 id="HowItWorks">How it works ?</h1>
+        <h2>Pomel uses <a class="info" href="https://en.wikipedia.org/wiki/Pomodoro_Technique">'Pomodoro technique'</a> Which works like next:
+            <br>
+            <ul>
+                <li>Start the timer and do the wanted task for 25 min.</li>
+                <br>
+                <li>Take a rest for 5 min.</li>
+                <br>
+                <li>Re-do the steps till we complete our goal.</li>
+                <br>
+            </ul>
+        </h2>
+    </div>
+    <div id="part-3">    
+        <h1 id="Advices">Advices</h1>
+        <br>
+        <h2>Here some advices for better results:
+            <br>
+            <ul>
+                <li>Try to sit in a calm place which help to relax.</li>
+                <br>
+                <li>Keep away any type of distractions. 'The phone for example' But if you had to bring it turn the airplane mode.</li>
+                <br>
+                <li>Bring a drink you prefer.'coffee,
+                juice...etc'</li>
+                <br>
+                <li>Play some music.</li>
+            </ul>
+        </h2>
+      </div>
+
+
+     </body>
+     <footer>
+         <h5>All Right Reserved by:</h5>
+         <h6>-Music: Lofi-girl.</h6>
+         <h6>-Design and development: <a class="info" href="https://www.instagram.com/lam._.ine._/" target="._blank">me.</a></h6>
+         <a class="language-btn" href="">English-عربية</a>
+     </footer>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+    <link rel="stylesheet" href="./style2-ar-style.css">
+    <head>
+
+        
+        <div class="menu-container" id="myDIV" dir="rtl">
+        <h3>الإعدادات</h3>ـــــــــــــ
+        <br>
+        <h4>اللغة</h4><a class="op-lang" href="pomel-dark-mode.html">English</a>
+        <br>
+        <h4>الوضع الليلي</h4><a href="pomel-ar.html"><label id="theme-change"></label></a>
+        <br>
+        <br>
+        <h3>موسيقى</h3>ــــــــــــــ
+        <br>
+        <h4>تشغيل/إيقاف</h4><label id="turn-music"></label>
+        <div class="h6">! الموسيقى ضرورية 
+            <br>
+        لذا لن يعمل الزر :)
+        <br>
+        sorry UwU
+    </div>
+        </div>
+<script>
+        var content = document.getElementsByTagName('div')[0];
+        var darkMode = document.getElementById('theme-change');
+        darkMode.addEventListener('click', function(){
+            darkMode.classList.toggle('active');
+            content.classList.toggle('night');
+        })
+    </script>
+        <marquee direction="right" behavior="alternate" scrollamount="8">إضغط على المثلث لفتح البرنامج (:</marquee>
+
+
+        <img src="./Pictures./dark-mode-bg.png" class="bg">
+        <a href="./pomodoro-starter-files-master./index.html">
+            <div class="pomel-btn">
+            
+            
+        </div>
+    </a>
+        <div class="wrapper">
+
+            <div class="icon youtube">
+                <div class="tooltip">يوتيوب</div>
+                <a class="social-media" href="https://www.youtube.com/channel/UCdpDEJeMUqzwnFdLbdixwdw/videos?view_as=subscriber" target="._blank"><img src="youtube-icon.png"></a>
+            </div>
+
+
+        
+            <div class="icon instagram">
+                <div class="tooltip">إنستغرام</div>
+                <a class="social-media" href="https://www.instagram.com/lam._.ine._/" target="._blank"><img src="ig-icon.png"></a>
+            </div>
+
+
+            
+        </div>
+
+        <div class="side-nav" >
+            <a href="#part-3">نصائح</a>
+            <a href="#part-2">كيف يعمل ؟</a>
+            <a href="#part-1">ماهو ؟</a>
+            <a href="#">الرئيسية</a>
+            
+            <input type="image" src="./Pictures./settings-icon.png" onclick="myFunction()">
+        </div>
+        <script type="text/javascript">
+            function myFunction() {
+                var x = document.getElementById("myDIV");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none"
+                }
+            }
+        </script>
+
+     </head>
+
+    <body>
+        <div id="part-1" dir="rtl">
+        <h1 id="WhatIsIt">ماهو ؟</h1>
+        <h2>-بومل هو برنامج أو تطبيق صُنع ليساعد الناس على استخدام وتنظيم الوقت بطريقة صحيحة.
+            <br>
+            <br>
+         -يمكن إستخدام بومل للأعمال المنزلية ،الدراسة وأي نوع من الأعمال التي تحتاج إدارة الوقت   
+         <br>
+         <br>
+         -جميعُنا نكره ونملٌُ من العمل لَكن مع بومل ستصبح أكثر سهولة وسيصبح الأمر ممتعا :)
+          </h2>
+    </div>
+    <div id="part-2" dir="rtl">
+        <h1 id="HowItWorks">كيف يعمل ؟</h1>
+        <h2>بومل يستعمل<a class="info" href="https://en.wikipedia.org/wiki/Pomodoro_Technique">'تقنية الطماطم'</a>والتي تعمل بالطريقة الآتية :
+            <br>
+            <ul>
+                <li>.نبدأ المؤقت ونؤدي العمل لمدة 25 دقيقة</li>
+                <br>
+                <li>.نأخذ راحة لمدة 5دقائق</li>
+                <br>
+                <li>نعيد الخطوات حتى نكمل الهدف المطلوب</li>
+                <br>
+            </ul>
+        </h2>
+    </div>
+    <div id="part-3" dir="rtl">    
+        <h1 id="Advices">نصائح</h1>
+        <h2>بعض النصائح لنتائج افضل:
+            <br>
+            <ul>
+                <li>حاول الجلوس في مكان هادئ ليساعد على الاسترخاء والتركيز</li>
+                <br>
+                <li>أبقِ أي نوع من الملهيات بعيدا. "الهاتف كمثال"لكن إذا إضطررت فعٌل وضع الطائرة. </li>
+                <br>
+                <li>أحضر مشروب تفضله: قهوة،عصير...إلخ</li>
+                <br>
+                <li>إستمع للموسيقى</li>
+            </ul>
+        </h2>
+      </div>
+
+
+     </body>
+     <footer >
+         <h5>All Right Reserved by:كل الحقوق محفوظة</h5>
+         <h6>-Music: Lofi-girl.موسيقى:</h6>
+         <h6>-Design and development: <a class="info" href="https://www.instagram.com/lam._.ine._/" target="._blank">me.</a>:تطوير وتصميم</h6>
+     </footer>
+</html>
